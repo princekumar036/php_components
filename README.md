@@ -10,7 +10,7 @@ This repo contains various components to help make a fully functional website wi
 - Backend validation for empty fields
 - PHP injection secured
 
-### Working
+**Working**
 - `__head__.php` works as base `<head>` component for all other files.
 - Every files can inherit the same `script` and `style` and other meta elements.
 - Altough each page share same `<head>`, each page can have its own `title` because of `set_title()` function.
